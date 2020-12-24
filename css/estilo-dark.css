@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background: #13303f;
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+header {
+    background: #13303f;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    border: 1px solid #000;
+    background: #121212;
+    padding: 6px;
+
+}
+
+i {
+
+    color: #13303f;
+    padding: 5px;
+}
+.i {
+    width: 22px ;
+    padding-right: 7px;
+    fill: #13303f !important;
+  }
+.icon {
+    padding: 7px;
+    width: 50px;
+}
+
+
+.enlace {
+    padding: 6px;
+    text-decoration: none;
+    color: #13303f;
+}
+
+article {
+    margin-top: 19px;
+    margin-left: 19px;
+    margin-right: 1%;
+    width: 73%;
+    background: #121212;
+    border: 1px solid #000;
+    float: left;
+    padding-left: 4px;
+}
+
+a {
+    color: #13303f;
+    text-decoration: none;
+}
+
+aside {
+    margin-top: 19px;
+    margin-right: 1%;
+    width: 21%;
+    padding-bottom: 80%;
+    background: #121212;
+    border: 1px solid #000;
+    float: left;
+}
+
+td {
+    padding: 5px;
+}
+
+footer {
+    background: #121212;
+    border: 2px solid #000;
+    width: 99%;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.redes {
+
+    width: 50px;
+    padding-left: 34px;
+}
+
+.padre {
+    display: none;
+}
+
+.hijo {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-family: arial;
+    }
+
+    .image {
+        width: 150px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    i {
+        display: inline-block;
+
+        color: white;
+    }
+
+    .padre {
+        position: sticky;
+        top: 0;
+        background: #121212;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .hijo {
+        display: none;
+        width: 98%;
+    }
+
+    .enlace-hijo {
+        font-size: 14px;
+        text-decoration: none;
+        padding: 7px;
+        border-top: 1px solid #ffff;
+        color: #ffff;
+        text-align: center;
+        display: inline-block;
+        width: 98%;
+    }
+
+    .contact {
+        border-bottom: 1px solid #ffff;
+    }
+
+    .enlace-hijo:hover {
+        background: #13303f;
+    }
+
+    .padre:hover .hijo {
+        display: inline-block;
+    }
+
+    article {
+        width: 92%;
+        margin: 2% 2% 2% 2%;
+    }
+
+    aside {
+        width: 92%;
+        margin: 2% 2% 2% 2%;
+        padding-bottom: 3%
+    }
+}

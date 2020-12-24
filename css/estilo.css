@@ -1,0 +1,174 @@
+body {
+  background: rgb(206, 236, 251);
+  color: black;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/*Estilo para el encabezado de la pagina*/
+header {
+  background: rgb(206, 236, 251);
+}
+
+/*Estilo para la barra de navegacion*/
+nav {
+  border: 1px solid #000;
+  background: #fff;
+  position: sticky;
+  padding: 6px;
+  top: 0;
+}
+
+.i {
+  width: 22px ;
+  padding-right: 7px;
+}
+
+.icon {
+  padding: 7px;
+  width: 50px;
+}
+
+.enlace {
+  color: #2c5eae;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+/*Estilo para el articulo de la pagina*/
+article {
+  background: #fff;
+  border: 1px solid #000;
+  float: left;
+  margin-top: 19px;
+  margin-left: 19px;
+  margin-right: 1%;
+  padding-left: 4px;
+  width: 73%;
+}
+
+a {
+  color: #2c5eae;
+  text-decoration: none;
+}
+
+/*Estilo para la barra lateral*/
+aside {
+  background: #fff;
+  border: 1px solid #000;
+  float: left;
+  height: 1354.38px;
+  margin-top: 19px;
+  margin-right: 1%;
+  width: 21%;
+}
+
+td {
+  padding: 5px;
+}
+
+/*Estilo para el pie de la pagina*/
+footer {
+  background: white;
+  border: 2px solid #000;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  width: 99%;
+}
+
+.redes {
+  padding-left: 34px;
+  width: 50px;
+}
+
+.padre {
+  display: none;
+}
+
+.hijo {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-family: arial;
+  }
+
+  .image {
+    width: 150px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .i {
+    color: #2c5eae;
+    padding-left: 50px;
+    display: inline-block;
+    width: 18px;
+  }
+
+  .padre {
+    background: white;
+    border-bottom: 1px solid;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    width: 98%;
+
+  }
+
+  .hijo {
+    display: none;
+    width: 98%;
+  }
+
+  .enlace-hijo {
+    border-top: 1px solid black;
+    color: #2c5eae;
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    width: 98%;
+  }
+
+  .enlace-hijo:hover {
+    background: rgb(206, 236, 251);
+  }
+
+  .padre:hover .hijo {
+    display: inline-block;
+  }
+
+  article {
+    margin: 2% 2% 2% 2%;
+    width: 92%;
+  }
+
+  aside {
+    height: 100%;
+    margin: 2% 2% 2% 2%;
+    width: 92%;
+  }
+
+  footer {
+    width: 97%
+  }
+
+}
