@@ -114,7 +114,7 @@ footer {
 
   .hijo {
     display: none;
-    width: 98%;
+    width: 100%;
   }
 
   .enlace-hijo {
@@ -125,7 +125,7 @@ footer {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    width: 98%;
+    width: 100%;
   }
 
   .enlace-hijo:hover {
