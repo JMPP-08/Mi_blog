@@ -82,7 +82,7 @@ a {
 }
 
 footer {
-  width: 99%;
+  width: 97%;
   background: rgb(206, 236, 251);
   border: 2px solid;
 }
@@ -97,7 +97,7 @@ footer {
 
 @media only screen and (max-width: 768px){
   header{
-    width:100%;
+    width:97%;
   }
   nav{
     display: none;
@@ -108,7 +108,7 @@ footer {
     display: inline-block;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: 97%;
 
   }
 
@@ -125,7 +125,7 @@ footer {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    width: 100%;
+    width: 97%;
   }
 
   .enlace-hijo:hover {
