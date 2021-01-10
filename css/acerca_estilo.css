@@ -6,7 +6,7 @@ body {
 }
 /*Estilo al scroll*/
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 20px;
   heigth:13px;
   background:#DCDCDC;
 }
@@ -16,13 +16,13 @@ border:2px solid gray;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #2c5eae;
+  background: #121212;
   border-radius: 3px;
   border:2px solid gray;
 }
 
 ::-webkit-scrollbar-thumb:hover,::-webkit-scrollbar-thumb:active {
-  background: #2c5eae; 
+  background: #121212; 
   border:2px solid black;
 }
 
