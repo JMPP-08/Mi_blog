@@ -4,10 +4,27 @@ body {
   font-family: arial;
   margin: 0;
   padding: 0;
-
-
+}
+/*Estilo al scroll*/
+::-webkit-scrollbar {
+  width: 15px;
+  heigth:13px;
+}
+::-webkit-scrollbar-track {
+border:2px solid gray;
+  border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(206, 236, 251); 
+  border-radius: 3px;
+  border:2px solid gray;
 }
 
+::-webkit-scrollbar-thumb:hover,::-webkit-scrollbar-thumb:active {
+  background: #2c5eae; 
+  border:2px solid black;
+}
 h1 {
   font-size: 35px;
 }
