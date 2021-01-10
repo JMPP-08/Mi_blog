@@ -9,6 +9,7 @@ body {
 ::-webkit-scrollbar {
   width: 15px;
   heigth:13px;
+  background:#DCDCDC;
 }
 ::-webkit-scrollbar-track {
 border:2px solid gray;
@@ -16,7 +17,7 @@ border:2px solid gray;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: rgb(206, 236, 251); 
+  background: #2c5eae;
   border-radius: 3px;
   border:2px solid gray;
 }
