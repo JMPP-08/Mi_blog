@@ -16,13 +16,13 @@ border:2px solid gray;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #121212;
+  background: #2c5eae;
   border-radius: 3px;
   border:2px solid gray;
 }
 
 ::-webkit-scrollbar-thumb:hover,::-webkit-scrollbar-thumb:active {
-  background: #121212; 
+  background:#2c5eae;
   border:2px solid black;
 }
 
