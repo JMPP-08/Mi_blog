@@ -5,7 +5,27 @@ body {
     background: #13303f;
     color: white;
 }
+/*Estilo al scroll*/
+::-webkit-scrollbar {
+  width: 15px;
+  heigth:13px;
+  background:#DCDCDC;
+}
+::-webkit-scrollbar-track {
+border:2px solid gray;
+  border-radius: 3px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #13303f;
+  border-radius: 3px;
+  border:2px solid gray;
+}
 
+::-webkit-scrollbar-thumb:hover,::-webkit-scrollbar-thumb:active {
+  background: #13303f; 
+  border:2px solid black;
+}
 h1 {
     font-size: 35px;
 }
