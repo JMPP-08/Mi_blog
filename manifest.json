@@ -1,0 +1,12 @@
+{
+ "name": "Mi blog",
+ "short_name": "Mi blog",
+ "description": "Bienvenido a mi primer blog, aquí encontraras lo que he aprendido y lo que quiero aprender sobre la programación web para ser más específicos el área: Frond-end",
+ "background_color": "#ceecfb",
+ "theme_color": "#ceecfb",
+ "orientation": "portrait",
+ "display": "standalone",
+ "start_url": "./?utm_source=web_app_manifest",
+ "scope": "./",
+ "lang": "es-ES"
+}
